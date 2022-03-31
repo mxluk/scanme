@@ -9,5 +9,10 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "lowdb": "^3.0.0"
+  },
+  "type": "module"
 }
