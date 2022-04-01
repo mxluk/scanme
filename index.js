@@ -14,7 +14,7 @@ await db.read();
 app.get('/', function (req, res) {
       db.data.num++;
       db.write().then(() => {
-            res.redirect('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+            res.redirect('https://youtu.be/a3Z7zEc7AXQ');
       });
 
 });
